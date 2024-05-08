@@ -1,0 +1,44 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-size: cover;
+}
+
+.temperature-container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.citytemp-name {
+    font-size: 32px; 
+    margin: 2px;
+}
+
+.image{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        font-size: 24px;
+        
+    }
+
+    .citytemp-name {
+        font-size: 24px; 
+        margin: 1px;
+    }
+    .image{
+        height: 30px;
+        width: 30px;
+        margin: 3px;
+    }
+
+    
+}
